@@ -1,0 +1,25 @@
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scrollbar-width: none ;
+    ms-overflow-style: none;
+}
+
+html, body {
+    font-size: 18px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    &::-webkit-scrollbar {
+	    display: none;
+    }
+}
